@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -13,65 +14,74 @@
   </head>
   <body class="page">
     <header class="page-header">
+      <div class="container page-container">
       <nav class="site-nav">
         <a href="./index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
         <ul class="site-nav-list">
           <li><a href="" class="link current">Студія</a></li>
           <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="" class="link">Контакти</a></li>
+          <li><a href="" class="link item">Контакти</a></li>
         </ul>
       </nav>
       <ul class="auth-nav">
         <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <li><a href="tel:+380961111111" class="link item">+38 096 111 11 11</a></li>
       </ul>
+      </div>
     </header>
     <main class="main">
       <section class="hero">
+        <div class="container hero-container">
         <!-- секція-герой -->
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="btn">Замовити послугу</button>
+        </div>
       </section>
-      <section>
+      <section class="section">
+        <div class="container">
         <!-- Особливості -->
-        <h1 hidden class="visually-hidden">Головна</h1>
+        <h2 hidden class="visually-hidden">Головна</h2>
         <ul class="main-list">
           <li>
-            <h2 class="list-title">УВАГА ДО ДЕТАЛЕЙ</h2>
+            <h3 class="list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="main-text">
               Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
             </p>
           </li>
           <li>
-            <h2 class="list-title">ПУНКТУАЛЬНІСТЬ</h2>
+            <h3 class="list-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="main-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
           <li>
-            <h2 class="list-title">ПЛАНУВАННЯ</h2>
+            <h3 class="list-title">ПЛАНУВАННЯ</h3>
             <p class="main-text">Так само консультація з широким активом значною мірою зумовлює.</p>
           </li>
           <li>
-            <h2 class="list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+            <h3 class="list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="main-text">
               Значимість цих проблем настільки очевидна, що реалізація планових завдань.
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section>
         <!-- Чим займаємося -->
+        <div class="container section-container">
         <h2 class="title">Чим ми займаємося</h2>
-        <ul>
-          <li><img src="./images/WhatWedo/box1.jpg" alt="photo1" width="370" /></li>
-          <li><img src="./images/WhatWedo/box2.jpg" alt="photo2" width="370" /></li>
-          <li><img src="./images/WhatWedo/box3.jpg" alt="photo3" width="370" /></li>
+        <ul class="items">
+          <li class="item-photo"><img src="./images/WhatWedo/box1.jpg" alt="photo1" width="370" /></li>
+          <li class="item-photo"><img src="./images/WhatWedo/box2.jpg" alt="photo2" width="370" /></li>
+          <li class="item-photo"><img src="./images/WhatWedo/box3.jpg" alt="photo3" width="370" /></li>
         </ul>
+        </div>
       </section>
-      <section class="team-box">
+      <section class="team-box section">
         <!-- Наша команда -->
         <h2 class="title">Наша команда</h2>
+        <div class="container">
         <ul class="list-title-list">
           <li>
             <img src="./images/Team/1.jpg" alt="photo 1" width="270" />
@@ -94,11 +104,13 @@
             <p class="main-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <section>
         <!-- Підвал -->
+        <div class="container footer-container">
         <a href="./index.html" class="logo-footer"><span class="logo-blue">Web</span>Studio</a>
         <address>
           <ul class="contacts-list">
@@ -111,6 +123,7 @@
             <li><a href="tel:+380961111111" class="link-to">+38 096 111 11 11</a></li>
           </ul>
         </address>
+        </div>
       </section>
     </footer>
   </body>

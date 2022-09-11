@@ -206,6 +206,7 @@ main .main {
 .section-container {
   display: flex;
   flex-direction: column;
+  padding-bottom: 94px;
 }
 .items {
   display: flex;

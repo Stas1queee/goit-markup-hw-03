@@ -129,6 +129,7 @@ li {
 }
 .link:hover,
 .link:focus {
+  cursor: pointer;
   color: var(--accent-color);
 }
 /* hero styles */
@@ -182,9 +183,6 @@ main .main {
 .list-title-list li {
   background-color: var(--background-color-header);
 }
-.team-box {
-  background-color: var(--filters-color);
-}
 .list-title {
   margin: auto;
   margin-bottom: 10px;
@@ -229,6 +227,9 @@ main .main {
   line-height: 2;
 }
 /* Team section */
+.team-box {
+  background-color: var(--filters-color);
+}
 .list-title-list img {
   margin-bottom: 30px;
 }
@@ -282,6 +283,7 @@ main .main {
 }
 .btn-page:hover,
 .btn-page:focus {
+    cursor: pointer;
   background-color: var(--accent-color);
   color: var(--background-color-header);
 }
